@@ -1,7 +1,7 @@
 # Microsoft Professional Program in Artificial Intelligence: Final Capstone Project
 
 The Microsoft Professional Program in Artificial Intelligence’s capstone project challenged to build an image classifier based on a 40k image dataset, 20k for training and test set each, of Progressive multifocal leukoencephalopathy (PML) brain disease. The classifier needed to identify orientation of the scanned images correctly. The requirement is that the classifier must be able to pass the accuracy tolerance, as log loss can't be greater than 0.30. 
-The test taker can use any tools to achieve this challenge within a four weeks time frame.
+The test taker can use any tools to achieve this challenge within a four weeks time frame. 
 
 ## Summary
 My plan of attack was first extracted pixel information from images, cleaned, normalized data and concatnated training set's label with Python, then used Microsoft Azure Machine Learning Studio (classic) (which now revamped and joined its full service to Microsoft Azure) to filter out the low-non influence features (pixel) and created Multi Logistic Regression (MLR) to tackle the problem. Finally, I finished the project with a log loss of .255 and passed this challenge.
@@ -19,3 +19,5 @@ taking care of the whole of these processes.
 Model's evaluation and confusion matrix 
 
 ![Evaluation](readme_pic/eval.jpg)
+
+##### Note for this repository: Due to the storage limitation, image and data set in this repository was reduced to 200.
