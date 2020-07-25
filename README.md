@@ -14,8 +14,8 @@ taking care of the whole of these processes.
 2. Next, I worked in Azure ML Studio (classic), I applied the "Permutation Feature Importance" module to identify irrelevant features, in this case pixels. After processing the module, I'm able to ignore the low-non influence pixel for 1926 pixel from the total of 4096 pixel (64 x 64 px) which also reduced the train and test set csv file size by almost half.
 
 3. After got the final csv file from step 2, I set up the model for training and prediction(in the picture below. For this challenge I selected Multiclass Logistic Regression to solve the problem.
-
 ![Multiclass Logistic Regression](readme_pic/model.jpg)
 
 Model's evaluation and confusion matrix 
+
 ![Evaluation](readme_pic/eval.jpg)
